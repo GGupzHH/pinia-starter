@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_MISSING_ARGS",
+    "err": {
+      "name": "pnpm",
+      "message": "Missing the template package name.\nThe correct usage is `pnpm create <name>` with <name> substituted for a package name.",
+      "code": "ERR_PNPM_MISSING_ARGS",
+      "stack": "pnpm: Missing the template package name.\nThe correct usage is `pnpm create <name>` with <name> substituted for a package name.\n    at Object.handler [as create] (/Users/mzc/.nvm/versions/node/v17.2.0/lib/node_modules/pnpm/dist/pnpm.cjs:179185:15)\n    at /Users/mzc/.nvm/versions/node/v17.2.0/lib/node_modules/pnpm/dist/pnpm.cjs:183735:83\n    at async run (/Users/mzc/.nvm/versions/node/v17.2.0/lib/node_modules/pnpm/dist/pnpm.cjs:183711:34)\n    at async runPnpm (/Users/mzc/.nvm/versions/node/v17.2.0/lib/node_modules/pnpm/dist/pnpm.cjs:183922:5)\n    at async /Users/mzc/.nvm/versions/node/v17.2.0/lib/node_modules/pnpm/dist/pnpm.cjs:183914:7"
+    }
+  }
+}
